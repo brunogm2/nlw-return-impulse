@@ -1,7 +1,5 @@
 import express from 'express';
-import nodemailer from 'nodemailer';
 import { SubmitFeedbackController } from './controllers/submitFeedbackController';
-import { prisma } from './prisma';
 import { PrismaFeedbacksRepository } from './repositories/prisma/prismaFeedbacksRepository';
 import { NodemailerMailUtil } from './utils/nodemailer/nodeMailerMailUtil';
 
